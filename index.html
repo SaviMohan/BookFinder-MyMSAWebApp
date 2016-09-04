@@ -2,15 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SaviShit</title>
+    <title>LOOKBOOK</title>
+    <!--Boostrap's CSS-->
+    <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="scripts/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
     <h1>Book Finder</h1>
     <h2 id="page-header">Get a list of Books and their Authors</h2>
     <input id="search" type="text" name="searchBox" placeholder="Enter a Book Title"><br>
-    <button id="searchButton" type="button" onclick="sendRequest()">Click Me!</button>
+    <button id="searchButton" type="button" onclick="sendRequest()">Search</button>
     <div id="books"></div>
+    <!--jQuery Script-->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <!--Bootstrap Script-->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
